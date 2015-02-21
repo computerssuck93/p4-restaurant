@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  margin: 5em auto;
+}
+
+.mix {
+  display: none;
+  text-align: center;
+  width: 23%;
+  margin: 1em 1%;
+  background-color: #ccc;
+}
+
+.p150, .p225, .p275, .p350{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.15em;
+  letter-spacing:.5px;
+  color: #000;
+}
+
+button {
+  background: #666666;
+  border: none;
+  color: #fff;
+  padding: .65em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pricing button:nth-child(1){
+  background-color: gold;
+  color: #000;
+}
+
+.pricing button:nth-child(2){
+  background-color: lightblue;
+  color: #000;
+}
+
+.pricing button:nth-child(3){
+  background-color: red;
+  color: #000;
+}
+
+.pricing button:nth-child(4){
+  background-color: limegreen;
+  color: #000;
+}
+
+.p150{
+  background-color: gold;
+}
+
+.p225{
+  background-color: lightblue;
+}
+
+.p275{
+  background-color: red;
+}
+
+.p350{
+  background-color: limegreen;
+}
+
+
+input{
+  padding: .5em;
+}
+
+.title {
+  font-weight: 2em;
+}
