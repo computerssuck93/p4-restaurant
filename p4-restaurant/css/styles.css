@@ -31,6 +31,53 @@ button {
   margin-bottom: 10px;
 }
 
+.category{
+  max-height: 50px;
+  width: 100%;
+  display: inline-block;
+}
+
+.category button{
+  width: 10%;
+  max-width: 125px;
+  height: 40px;
+  padding: .25em;
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+
+.category button:nth-child(1) span{
+  margin-left: 20%;
+}
+
+.category button span{
+    vertical-align: sub;
+    display: inline-block;
+}
+
+.category button img{
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  float: right;
+}
+
+.pricing{
+  max-height: 50px;
+  width: 100%;
+  margin-left: 6%;
+  display: inline-block;
+}
+
+.pricing button{
+  width: 7%;
+  max-width: 100px;
+  height: 40px;
+  padding: .25em;
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+
 .pricing button:nth-child(1){
   background-color: gold;
   color: #000;
